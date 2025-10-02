@@ -1,0 +1,134 @@
+body {
+    max-width: 1863px; /* Ancho máximo del contenido del body */
+    font-family: Arial;
+    margin: 0; /* Margin del body */
+    padding: 0; /* Padding del body */
+    background-color: #cecece;
+    color: #333;
+}
+
+header {
+    max-width: 1863px; 
+    background-color: #00334d;
+    color: white;
+    text-align: center; 
+    padding: 30px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 50px;
+}
+
+header p {
+    max-width: 800px;
+    margin: 30px 400px;
+    line-height: 1.8;
+}
+
+main {
+    max-width: 1000px; /* Todo lo que haya dentro de main ocupará 1000px de ancho a menos que se indique una cantidad menor */
+    margin: auto; /* Aplica margen a la izquierda y a la derecha de forma distribuida segun el tamaño de los contenidos */
+}
+
+.causas h2 {
+    text-align: center;
+}
+
+.fila {
+    text-align: center;
+    margin: 50px;
+}
+
+.fila article {
+    display: inline-block; /* Aplica propiedades de elementos en línea */
+    margin: 50px;
+}
+
+.fila img {
+    border-radius: 10px; /* Para que las fotos tengan los bordes redondos */
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2); /* Para que las fotos tengan sombra */
+}
+
+.curiosidades h2 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.curiosidades ul {
+    list-style: none; /* Para quitarle los · de cada linea de la lista */
+    padding: 0;
+    text-align: center;
+}
+
+.curiosidades li {
+    background: #e6f2f8;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.1); /* Para darle sombra a las li */
+}
+
+.tabla {
+    margin: 100px;
+}
+
+.tabla h2 {
+    text-align: center;
+}
+
+.tabla table {
+    margin: auto;
+    border-collapse: collapse; /* Para que los bordes de celdas adyacentes se fusionen en uno solo */
+    background: white;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.tabla th, .tabla td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.tabla th {
+    background-color: #006080;
+    color: white;
+}
+
+.enlaces {
+    margin: 100px;
+}
+.enlaces h2 {
+    text-align: center;
+    margin: 20px;
+}
+
+.enlaces ul {
+    list-style: none;
+    text-align: center;
+}
+
+.enlaces li {
+    display: inline-block;
+}
+
+.enlaces a {
+    text-decoration: none; /* Para que no se subraye el texto */
+    color: #006080;
+    font-weight: bold;
+    border: 2px solid #006080;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.enlaces a:hover {
+    background-color: #006080;
+    color: white;
+}
+
+footer {
+    background-color: #00334d;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
